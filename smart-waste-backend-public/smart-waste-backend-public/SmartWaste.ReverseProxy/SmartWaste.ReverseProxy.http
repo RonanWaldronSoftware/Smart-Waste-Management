@@ -1,0 +1,6 @@
+@SmartWaste.ReverseProxy_HostAddress = http://localhost:5146
+
+GET {{SmartWaste.ReverseProxy_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

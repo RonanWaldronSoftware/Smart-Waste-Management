@@ -1,0 +1,1206 @@
+<?xml version='1.0' encoding='utf-8'?>
+<root xmlns:ns1="urn:schemas-microsoft-com:xml-msdata" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  
+  <xs:schema id="root">
+    <xs:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xs:element name="root" ns1:IsDataSet="true">
+      <xs:complexType>
+        <xs:choice maxOccurs="unbounded">
+          <xs:element name="metadata">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="value" type="xsd:string" minOccurs="0" />
+              </xs:sequence>
+              <xs:attribute name="name" use="required" type="xsd:string" />
+              <xs:attribute name="type" type="xsd:string" />
+              <xs:attribute name="mimetype" type="xsd:string" />
+              <xs:attribute ref="xml:space" />
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="assembly">
+            <xs:complexType>
+              <xs:attribute name="alias" type="xsd:string" />
+              <xs:attribute name="name" type="xsd:string" />
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="data">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="value" type="xsd:string" minOccurs="0" ns1:Ordinal="1" />
+                <xs:element name="comment" type="xsd:string" minOccurs="0" ns1:Ordinal="2" />
+              </xs:sequence>
+              <xs:attribute name="name" type="xsd:string" use="required" ns1:Ordinal="1" />
+              <xs:attribute name="type" type="xsd:string" ns1:Ordinal="3" />
+              <xs:attribute name="mimetype" type="xsd:string" ns1:Ordinal="4" />
+              <xs:attribute ref="xml:space" />
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="resheader">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="value" type="xsd:string" minOccurs="0" ns1:Ordinal="1" />
+              </xs:sequence>
+              <xs:attribute name="name" type="xsd:string" use="required" />
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="admin" xml:space="preserve">
+    <value>Admin</value>
+  </data>
+  <data name="alertPushNotificationBody" xml:space="preserve">
+    <value>SN: {0} Lokacija: {1} Web: {2}</value>
+  </data>
+  <data name="alertSmsBody" xml:space="preserve">
+    <value>SmartWaste Upozorenje: {0} SN: {1} Lokacija: {2} Web: {3}</value>
+  </data>
+  <data name="batteryOverTemperatureAlertType" xml:space="preserve">
+    <value>Pregrijavanje baterije</value>
+  </data>
+  <data name="batteryUVLOAlertType" xml:space="preserve">
+    <value>UVLO baterije</value>
+  </data>
+  <data name="binFullAlertType" xml:space="preserve">
+    <value>Spremnik pun</value>
+  </data>
+  <data name="binLockedAlertType" xml:space="preserve">
+    <value>Spremnik zakljucan</value>
+  </data>
+  <data name="binTiltedAlertType" xml:space="preserve">
+    <value>Spremnik nagnut</value>
+  </data>
+  <data name="cannotDeleteUserErrorMessage" xml:space="preserve">
+    <value>Ne može se izbrisati korisnik</value>
+  </data>
+  <data name="corporateCustomer" xml:space="preserve">
+    <value>Korporativni korisnik</value>
+  </data>
+  <data name="croatian" xml:space="preserve">
+    <value>Hrvatski</value>
+  </data>
+  <data name="customer" xml:space="preserve">
+    <value>Korisnik</value>
+  </data>
+  <data name="damageReportAlertType" xml:space="preserve">
+    <value>Izvještaj o šteti</value>
+  </data>
+  <data name="deviceNotReportingAlertType" xml:space="preserve">
+    <value>Uređaj ne šalje izvještaje</value>
+  </data>
+  <data name="distributor" xml:space="preserve">
+    <value>Distributer</value>
+  </data>
+  <data name="driver" xml:space="preserve">
+    <value>Vozač</value>
+  </data>
+  <data name="emailAlertType" xml:space="preserve">
+    <value>Email</value>
+  </data>
+  <data name="emptiedLastPeriodAlertType" xml:space="preserve">
+    <value>Pražnjenje u posljednjem razdoblju</value>
+  </data>
+  <data name="english" xml:space="preserve">
+    <value>Engleski</value>
+  </data>
+  <data name="fcmApiUrl" xml:space="preserve">
+    <value>Fcm api url</value>
+  </data>
+  <data name="fcmAuthKey" xml:space="preserve">
+    <value>Fcm auth key</value>
+  </data>
+  <data name="flapStuckOpenAlertType" xml:space="preserve">
+    <value>Poklopac zaglavljen otvoren</value>
+  </data>
+  <data name="french" xml:space="preserve">
+    <value>Francuski</value>
+  </data>
+  <data name="german" xml:space="preserve">
+    <value>Njemacki</value>
+  </data>
+  <data name="italian" xml:space="preserve"><value>Talijanski</value></data><data name="host" xml:space="preserve">
+    <value>Host</value>
+  </data>
+  <data name="mobileVersion" xml:space="preserve">
+    <value>Mobilna verzija</value>
+  </data>
+  <data name="norwegian" xml:space="preserve">
+    <value>Norveški</value>
+  </data>
+  <data name="parentUserNotFoundErrorMessage" xml:space="preserve">
+    <value>Nadredeni korisnik nije pronaden</value>
+  </data>
+  <data name="port" xml:space="preserve">
+    <value>Port</value>
+  </data>
+  <data name="portuguese" xml:space="preserve">
+    <value>Portugalski</value>
+  </data>
+  <data name="pushAlertType" xml:space="preserve">
+    <value>Push</value>
+  </data>
+  <data name="roleDoesNotExistErrorMessage" xml:space="preserve">
+    <value>Uloga ne postoji</value>
+  </data>
+  <data name="romanian" xml:space="preserve">
+    <value>Rumunjski</value>
+  </data>
+  <data name="serviceDoorStuckOpenAlertType" xml:space="preserve">
+    <value>Servisna vrata zaglavljena otvorena</value>
+  </data>
+  <data name="smsAlertType" xml:space="preserve">
+    <value>SMS</value>
+  </data>
+  <data name="smsDlrUrl" xml:space="preserve">
+    <value>Sms dlr url</value>
+  </data>
+  <data name="smsPassword" xml:space="preserve">
+    <value>Sms lozinka</value>
+  </data>
+  <data name="smsUrl" xml:space="preserve">
+    <value>Sms url</value>
+  </data>
+  <data name="smsUsername" xml:space="preserve">
+    <value>Sms korisnicko ime</value>
+  </data>
+  <data name="smtpPassword" xml:space="preserve">
+    <value>Smtp lozinka</value>
+  </data>
+  <data name="smtpUsername" xml:space="preserve">
+    <value>Smtp korisnicko ime</value>
+  </data>
+  <data name="spanish" xml:space="preserve">
+    <value>Španjolski</value>
+  </data>
+  <data name="swedish" xml:space="preserve">
+    <value>Švedski</value>
+  </data>
+  <data name="technician" xml:space="preserve">
+    <value>Tehničar</value>
+  </data>
+  <data name="userAlertEmailBody" xml:space="preserve">
+    <value>&lt;h1&gt;Upozorenje: {0}&lt;/h1&gt; &lt;h2&gt;Lokacija: {1}&lt;/h2&gt; &lt;h2&gt;SN: {2}&lt;/h2&gt; &lt;h3&gt;Pogledajte detalje spremnika: &lt;a href="{3}" target="_blank"&gt; {3} &lt;/a&gt; &lt;/h3&gt; &lt;h3&gt;Kontakt Email: &lt;a href="mailto:{4}"&gt;{4}&lt;/a&gt; &lt;/h3&gt;</value>
+  </data>
+  <data name="userAlertEmailTitle" xml:space="preserve">
+    <value>{0} Upozorenje</value>
+  </data>
+  <data name="userAlertTitle" xml:space="preserve">
+    <value>Upozorenje {0}</value>
+  </data>
+  <data name="userCanNotCreateAlertErrorMessage" xml:space="preserve">
+    <value>Korisnik ne može stvoriti upozorenja za odabranog korisnika</value>
+  </data>
+  <data name="userNotAuthorizedToChangeStatusErrorMessage" xml:space="preserve">
+    <value>Korisnik nije ovlašten promijeniti status korisnika {0}</value>
+  </data>
+  <data name="userNotAuthorizedToCreateErrorMessage" xml:space="preserve">
+    <value>Korisnik nije ovlašten stvoriti korisnika s danim podacima</value>
+  </data>
+  <data name="userNotAuthorizedToUpdateErrorMessage" xml:space="preserve">
+    <value>Korisnik nije ovlašten ažurirati korisnika {0}</value>
+  </data>
+  <data name="userNotFoundErrorMessage" xml:space="preserve">
+    <value>Korisnik nije pronaden</value>
+  </data>
+  <data name="userWithEmailExistsErrorMessage" xml:space="preserve">
+    <value>Korisnik s tim emailom vec postoji</value>
+  </data>
+  <data name="andorra" xml:space="preserve">
+    <value>Andora</value>
+  </data>
+  <data name="albania" xml:space="preserve">
+    <value>Albanija</value>
+  </data>
+  <data name="austria" xml:space="preserve">
+    <value>Austrija</value>
+  </data>
+  <data name="bosniaandherzegovina" xml:space="preserve">
+    <value>Bosna i Hercegovina</value>
+  </data>
+  <data name="belgium" xml:space="preserve">
+    <value>Belgija</value>
+  </data>
+  <data name="bulgaria" xml:space="preserve">
+    <value>Bugarska</value>
+  </data>
+  <data name="belarus" xml:space="preserve">
+    <value>Bjelorusija</value>
+  </data>
+  <data name="switzerland" xml:space="preserve">
+    <value>Švicarska</value>
+  </data>
+  <data name="cyprus" xml:space="preserve">
+    <value>Kipar</value>
+  </data>
+  <data name="czechrepublic" xml:space="preserve">
+    <value>Ceška Republika</value>
+  </data>
+  <data name="germany" xml:space="preserve">
+    <value>Njemacka</value>
+  </data>
+  <data name="denmark" xml:space="preserve">
+    <value>Danska</value>
+  </data>
+  <data name="estonia" xml:space="preserve">
+    <value>Estonija</value>
+  </data>
+  <data name="spain" xml:space="preserve">
+    <value>Španjolska</value>
+  </data>
+  <data name="finland" xml:space="preserve">
+    <value>Finska</value>
+  </data>
+  <data name="faroeislands" xml:space="preserve">
+    <value>Farski Otoci</value>
+  </data>
+  <data name="france" xml:space="preserve">
+    <value>Francuska</value>
+  </data>
+  <data name="unitedkingdom" xml:space="preserve">
+    <value>Ujedinjeno Kraljevstvo</value>
+  </data>
+  <data name="gibraltar" xml:space="preserve">
+    <value>Gibraltar</value>
+  </data>
+  <data name="greece" xml:space="preserve">
+    <value>Grcka</value>
+  </data>
+  <data name="croatia" xml:space="preserve">
+    <value>Hrvatska</value>
+  </data>
+  <data name="hungary" xml:space="preserve">
+    <value>Madarska</value>
+  </data>
+  <data name="ireland" xml:space="preserve">
+    <value>Irska</value>
+  </data>
+  <data name="isleofman" xml:space="preserve">
+    <value>Ostrvo Man</value>
+  </data>
+  <data name="iceland" xml:space="preserve">
+    <value>Island</value>
+  </data>
+  <data name="italy" xml:space="preserve">
+    <value>Italija</value>
+  </data>
+  <data name="liechtenstein" xml:space="preserve">
+    <value>Lihtenštajn</value>
+  </data>
+  <data name="lithuania" xml:space="preserve">
+    <value>Litvanija</value>
+  </data>
+  <data name="luxembourg" xml:space="preserve">
+    <value>Luksemburg</value>
+  </data>
+  <data name="latvia" xml:space="preserve">
+    <value>Latvija</value>
+  </data>
+  <data name="monaco" xml:space="preserve">
+    <value>Monako</value>
+  </data>
+  <data name="moldova" xml:space="preserve">
+    <value>Moldova</value>
+  </data>
+  <data name="montenegro" xml:space="preserve">
+    <value>Crna Gora</value>
+  </data>
+  <data name="macedonia" xml:space="preserve">
+    <value>Sjeverna Makedonija</value>
+  </data>
+  <data name="malta" xml:space="preserve">
+    <value>Malta</value>
+  </data>
+  <data name="netherlands" xml:space="preserve">
+    <value>Nizozemska</value>
+  </data>
+  <data name="norway" xml:space="preserve">
+    <value>Norveška</value>
+  </data>
+  <data name="poland" xml:space="preserve">
+    <value>Poljska</value>
+  </data>
+  <data name="portugal" xml:space="preserve">
+    <value>Portugal</value>
+  </data>
+  <data name="romania" xml:space="preserve">
+    <value>Rumunija</value>
+  </data>
+  <data name="serbia" xml:space="preserve">
+    <value>Srbija</value>
+  </data>
+  <data name="russia" xml:space="preserve">
+    <value>Rusija</value>
+  </data>
+  <data name="sweden" xml:space="preserve">
+    <value>Švedska</value>
+  </data>
+  <data name="slovenia" xml:space="preserve">
+    <value>Slovenija</value>
+  </data>
+  <data name="slovakia" xml:space="preserve">
+    <value>Slovacka</value>
+  </data>
+  <data name="sanmarino" xml:space="preserve">
+    <value>San Marino</value>
+  </data>
+  <data name="ukraine" xml:space="preserve">
+    <value>Ukrajina</value>
+  </data>
+  <data name="vaticancity" xml:space="preserve">
+    <value>Vatikanski Grad</value>
+  </data>
+  <data name="kosovo" xml:space="preserve">
+    <value>Kosovo</value>
+  </data>
+  <data name="canada" xml:space="preserve">
+    <value>Kanada</value>
+  </data>
+  <data name="afghanistan" xml:space="preserve">
+    <value>Afganistan</value>
+  </data>
+  <data name="alandislands" xml:space="preserve">
+    <value>Ostrva Aland</value>
+  </data>
+  <data name="algeria" xml:space="preserve">
+    <value>Alžir</value>
+  </data>
+  <data name="americansamoa" xml:space="preserve">
+    <value>Americka Samoa</value>
+  </data>
+  <data name="angola" xml:space="preserve">
+    <value>Angola</value>
+  </data>
+  <data name="anguilla" xml:space="preserve">
+    <value>Angvila</value>
+  </data>
+  <data name="antarctica" xml:space="preserve">
+    <value>Antarktik</value>
+  </data>
+  <data name="antiguaandbarbuda" xml:space="preserve">
+    <value>Antigva i Barbuda</value>
+  </data>
+  <data name="argentina" xml:space="preserve">
+    <value>Argentina</value>
+  </data>
+  <data name="armenia" xml:space="preserve">
+    <value>Armenija</value>
+  </data>
+  <data name="aruba" xml:space="preserve">
+    <value>Aruba</value>
+  </data>
+  <data name="australia" xml:space="preserve">
+    <value>Australija</value>
+  </data>
+  <data name="azerbaijan" xml:space="preserve">
+    <value>Azerbejdžan</value>
+  </data>
+  <data name="bahamas" xml:space="preserve">
+    <value>Bahami</value>
+  </data>
+  <data name="bahrain" xml:space="preserve">
+    <value>Bahrein</value>
+  </data>
+  <data name="bangladesh" xml:space="preserve">
+    <value>Bangladeš</value>
+  </data>
+  <data name="barbados" xml:space="preserve">
+    <value>Barbados</value>
+  </data>
+  <data name="belize" xml:space="preserve">
+    <value>Beliz</value>
+  </data>
+  <data name="benin" xml:space="preserve">
+    <value>Benin</value>
+  </data>
+  <data name="bermuda" xml:space="preserve">
+    <value>Bermudi</value>
+  </data>
+  <data name="bhutan" xml:space="preserve">
+    <value>Butan</value>
+  </data>
+  <data name="bolivia" xml:space="preserve">
+    <value>Bolivija</value>
+  </data>
+  <data name="bonaire,sainteustatiusandsaba" xml:space="preserve">
+    <value>Bonaire, Sveti Eustahije i Saba</value>
+  </data>
+  <data name="botswana" xml:space="preserve">
+    <value>Bocvana</value>
+  </data>
+  <data name="bouvetisland" xml:space="preserve">
+    <value>Bouvetov Otok</value>
+  </data>
+  <data name="brazil" xml:space="preserve">
+    <value>Brazil</value>
+  </data>
+  <data name="britishindianoceanterritory" xml:space="preserve">
+    <value>Britanska Teritorija u Indijskom Okeanu</value>
+  </data>
+  <data name="britishvirginislands" xml:space="preserve">
+    <value>Britanska Djevicanska Ostrva</value>
+  </data>
+  <data name="brunei" xml:space="preserve">
+    <value>Brunej</value>
+  </data>
+  <data name="burkinafaso" xml:space="preserve">
+    <value>Burkina Faso</value>
+  </data>
+  <data name="burundi" xml:space="preserve">
+    <value>Burundi</value>
+  </data>
+  <data name="cambodia" xml:space="preserve">
+    <value>Kambodža</value>
+  </data>
+  <data name="cameroon" xml:space="preserve">
+    <value>Kamerun</value>
+  </data>
+  <data name="capeverde" xml:space="preserve">
+    <value>Zelenortska Ostrva</value>
+  </data>
+  <data name="caymanislands" xml:space="preserve">
+    <value>Kajmanska Ostrva</value>
+  </data>
+  <data name="centralafricanrepublic" xml:space="preserve">
+    <value>Srednjoafricka Republika</value>
+  </data>
+  <data name="chad" xml:space="preserve">
+    <value>Cad</value>
+  </data>
+  <data name="chile" xml:space="preserve">
+    <value>Cile</value>
+  </data>
+  <data name="china" xml:space="preserve">
+    <value>Kina</value>
+  </data>
+  <data name="christmasisland" xml:space="preserve">
+    <value>Božicni Otok</value>
+  </data>
+  <data name="cocosislands" xml:space="preserve">
+    <value>Kokosova Ostrva</value>
+  </data>
+  <data name="colombia" xml:space="preserve">
+    <value>Kolumbija</value>
+  </data>
+  <data name="comoros" xml:space="preserve">
+    <value>Komori</value>
+  </data>
+  <data name="cookislands" xml:space="preserve">
+    <value>Kukova Ostrva</value>
+  </data>
+  <data name="costarica" xml:space="preserve">
+    <value>Kostarika</value>
+  </data>
+  <data name="cuba" xml:space="preserve">
+    <value>Kuba</value>
+  </data>
+  <data name="curacao" xml:space="preserve">
+    <value>Kurasao</value>
+  </data>
+  <data name="democraticrepublicofthecongo" xml:space="preserve">
+    <value>Demokratska Republika Kongo</value>
+  </data>
+  <data name="djibouti" xml:space="preserve">
+    <value>Džibuti</value>
+  </data>
+  <data name="dominica" xml:space="preserve">
+    <value>Dominika</value>
+  </data>
+  <data name="dominicanrepublic" xml:space="preserve">
+    <value>Dominikanska Republika</value>
+  </data>
+  <data name="easttimor" xml:space="preserve">
+    <value>Istocni Timor</value>
+  </data>
+  <data name="ecuador" xml:space="preserve">
+    <value>Ekvador</value>
+  </data>
+  <data name="egypt" xml:space="preserve">
+    <value>Egipat</value>
+  </data>
+  <data name="elsalvador" xml:space="preserve">
+    <value>El Salvador</value>
+  </data>
+  <data name="equatorialguinea" xml:space="preserve">
+    <value>Ekvatorska Gvineja</value>
+  </data>
+  <data name="eritrea" xml:space="preserve">
+    <value>Eritreja</value>
+  </data>
+  <data name="ethiopia" xml:space="preserve">
+    <value>Etiopija</value>
+  </data>
+  <data name="falklandislands" xml:space="preserve">
+    <value>Falklandska Ostrva</value>
+  </data>
+  <data name="fiji" xml:space="preserve">
+    <value>Fidži</value>
+  </data>
+  <data name="frenchguiana" xml:space="preserve">
+    <value>Francuska Gvajana</value>
+  </data>
+  <data name="frenchpolynesia" xml:space="preserve">
+    <value>Francuska Polinezija</value>
+  </data>
+  <data name="frenchsouthernterritories" xml:space="preserve">
+    <value>Francuska Južna Teritorija</value>
+  </data>
+  <data name="gabon" xml:space="preserve">
+    <value>Gabon</value>
+  </data>
+  <data name="gambia" xml:space="preserve">
+    <value>Gambija</value>
+  </data>
+  <data name="georgia" xml:space="preserve">
+    <value>Gruzija</value>
+  </data>
+  <data name="ghana" xml:space="preserve">
+    <value>Gana</value>
+  </data>
+  <data name="greenland" xml:space="preserve">
+    <value>Grenland</value>
+  </data>
+  <data name="grenada" xml:space="preserve">
+    <value>Grenada</value>
+  </data>
+  <data name="guadeloupe" xml:space="preserve">
+    <value>Gvadelup</value>
+  </data>
+  <data name="guam" xml:space="preserve">
+    <value>Guam</value>
+  </data>
+  <data name="guatemala" xml:space="preserve">
+    <value>Gvajana</value>
+  </data>
+  <data name="guernsey" xml:space="preserve">
+    <value>Gernsij</value>
+  </data>
+  <data name="guinea" xml:space="preserve">
+    <value>Gvineja</value>
+  </data>
+  <data name="guinea-bissau" xml:space="preserve">
+    <value>Gvineja-Bisau</value>
+  </data>
+  <data name="guyana" xml:space="preserve">
+    <value>Gvajana</value>
+  </data>
+  <data name="haiti" xml:space="preserve">
+    <value>Haiti</value>
+  </data>
+  <data name="heardislandandmcdonaldislands" xml:space="preserve">
+    <value>Ostrvo Heard i Otoci McDonald</value>
+  </data>
+  <data name="honduras" xml:space="preserve">
+    <value>Honduras</value>
+  </data>
+  <data name="hongkong" xml:space="preserve">
+    <value>Hong Kong</value>
+  </data>
+  <data name="india" xml:space="preserve">
+    <value>Indija</value>
+  </data>
+  <data name="indonesia" xml:space="preserve">
+    <value>Indonezija</value>
+  </data>
+  <data name="iran" xml:space="preserve">
+    <value>Iran</value>
+  </data>
+  <data name="iraq" xml:space="preserve">
+    <value>Irak</value>
+  </data>
+  <data name="israel" xml:space="preserve">
+    <value>Izrael</value>
+  </data>
+  <data name="ivorycoast" xml:space="preserve">
+    <value>Obala Slonovace</value>
+  </data>
+  <data name="jamaica" xml:space="preserve">
+    <value>Jamajka</value>
+  </data>
+  <data name="japan" xml:space="preserve">
+    <value>Japan</value>
+  </data>
+  <data name="jersey" xml:space="preserve">
+    <value>Jersey</value>
+  </data>
+  <data name="jordan" xml:space="preserve">
+    <value>Jordan</value>
+  </data>
+  <data name="kazakhstan" xml:space="preserve">
+    <value>Kazahstan</value>
+  </data>
+  <data name="kenya" xml:space="preserve">
+    <value>Kenija</value>
+  </data>
+  <data name="kiribati" xml:space="preserve">
+    <value>Kiribati</value>
+  </data>
+  <data name="kuwait" xml:space="preserve">
+    <value>Kuvajt</value>
+  </data>
+  <data name="kyrgyzstan" xml:space="preserve">
+    <value>Kirgistan</value>
+  </data>
+  <data name="laos" xml:space="preserve">
+    <value>Laos</value>
+  </data>
+  <data name="lebanon" xml:space="preserve">
+    <value>Liban</value>
+  </data>
+  <data name="lesotho" xml:space="preserve">
+    <value>Lesoto</value>
+  </data>
+  <data name="liberia" xml:space="preserve">
+    <value>Liberija</value>
+  </data>
+  <data name="libya" xml:space="preserve">
+    <value>Libija</value>
+  </data>
+  <data name="macao" xml:space="preserve">
+    <value>Makao</value>
+  </data>
+  <data name="madagascar" xml:space="preserve">
+    <value>Madagaskar</value>
+  </data>
+  <data name="malawi" xml:space="preserve">
+    <value>Malavi</value>
+  </data>
+  <data name="malaysia" xml:space="preserve">
+    <value>Malezija</value>
+  </data>
+  <data name="maldives" xml:space="preserve">
+    <value>Maldivi</value>
+  </data>
+  <data name="mali" xml:space="preserve">
+    <value>Mali</value>
+  </data>
+  <data name="marshallislands" xml:space="preserve">
+    <value>Maršalska Ostrva</value>
+  </data>
+  <data name="martinique" xml:space="preserve">
+    <value>Martinik</value>
+  </data>
+  <data name="mauritania" xml:space="preserve">
+    <value>Mauricijus</value>
+  </data>
+  <data name="mauritius" xml:space="preserve">
+    <value>Mauricijus</value>
+  </data>
+  <data name="mayotte" xml:space="preserve">
+    <value>Mayotte</value>
+  </data>
+  <data name="mexico" xml:space="preserve">
+    <value>Meksiko</value>
+  </data>
+  <data name="micronesia" xml:space="preserve">
+    <value>Mikronezija</value>
+  </data>
+  <data name="mongolia" xml:space="preserve">
+    <value>Mongolija</value>
+  </data>
+  <data name="montserrat" xml:space="preserve">
+    <value>Montserrat</value>
+  </data>
+  <data name="morocco" xml:space="preserve">
+    <value>Maroko</value>
+  </data>
+  <data name="mozambique" xml:space="preserve">
+    <value>Mozambik</value>
+  </data>
+  <data name="myanmar" xml:space="preserve">
+    <value>Mjanmar</value>
+  </data>
+  <data name="namibia" xml:space="preserve">
+    <value>Namibija</value>
+  </data>
+  <data name="nauru" xml:space="preserve">
+    <value>Nauru</value>
+  </data>
+  <data name="nepal" xml:space="preserve">
+    <value>Nepal</value>
+  </data>
+  <data name="netherlandsantilles" xml:space="preserve">
+    <value>Nizozemska Antili</value>
+  </data>
+  <data name="newcaledonia" xml:space="preserve">
+    <value>Nova Kaledonija</value>
+  </data>
+  <data name="newzealand" xml:space="preserve">
+    <value>Novi Zeland</value>
+  </data>
+  <data name="nicaragua" xml:space="preserve">
+    <value>Nikaragva</value>
+  </data>
+  <data name="niger" xml:space="preserve">
+    <value>Niger</value>
+  </data>
+  <data name="nigeria" xml:space="preserve">
+    <value>Nigerija</value>
+  </data>
+  <data name="niue" xml:space="preserve">
+    <value>Niue</value>
+  </data>
+  <data name="norfolkisland" xml:space="preserve">
+    <value>Ostrvo Norfolk</value>
+  </data>
+  <data name="northkorea" xml:space="preserve">
+    <value>Sjeverna Koreja</value>
+  </data>
+  <data name="northernmarianaislands" xml:space="preserve">
+    <value>Sjeverna Marijanska Ostrva</value>
+  </data>
+  <data name="oman" xml:space="preserve">
+    <value>Oman</value>
+  </data>
+  <data name="pakistan" xml:space="preserve">
+    <value>Pakistan</value>
+  </data>
+  <data name="palau" xml:space="preserve">
+    <value>Palau</value>
+  </data>
+  <data name="palestinianterritory" xml:space="preserve">
+    <value>Palestinska Teritorija</value>
+  </data>
+  <data name="panama" xml:space="preserve">
+    <value>Panama</value>
+  </data>
+  <data name="papuanewguinea" xml:space="preserve">
+    <value>Papua Nova Gvineja</value>
+  </data>
+  <data name="paraguay" xml:space="preserve">
+    <value>Paragvaj</value>
+  </data>
+  <data name="peru" xml:space="preserve">
+    <value>Peru</value>
+  </data>
+  <data name="philippines" xml:space="preserve">
+    <value>Filipini</value>
+  </data>
+  <data name="pitcairn" xml:space="preserve">
+    <value>Pitcairn</value>
+  </data>
+  <data name="puertorico" xml:space="preserve">
+    <value>Portoriko</value>
+  </data>
+  <data name="qatar" xml:space="preserve">
+    <value>Katar</value>
+  </data>
+  <data name="republicofthecongo" xml:space="preserve">
+    <value>Republika Kongo</value>
+  </data>
+  <data name="reunion" xml:space="preserve">
+    <value>Reunion</value>
+  </data>
+  <data name="rwanda" xml:space="preserve">
+    <value>Ruanda</value>
+  </data>
+  <data name="saintbarthelemy" xml:space="preserve">
+    <value>Sveti Bartolomej</value>
+  </data>
+  <data name="sainthelena" xml:space="preserve">
+    <value>Sveti Helena</value>
+  </data>
+  <data name="saintkittsandnevis" xml:space="preserve">
+    <value>Sveti Kristofor i Nevis</value>
+  </data>
+  <data name="saintlucia" xml:space="preserve">
+    <value>Sveti Lucija</value>
+  </data>
+  <data name="saintmartin" xml:space="preserve">
+    <value>Sveti Martin</value>
+  </data>
+  <data name="saintpierreandmiquelon" xml:space="preserve">
+    <value>Sveti Pjèr i Mikelon</value>
+  </data>
+  <data name="saintvincentandthegrenadines" xml:space="preserve">
+    <value>Sveti Toma i Princip</value>
+  </data>
+  <data name="samoa" xml:space="preserve">
+    <value>Sjedinjene Američke Države</value>
+  </data>
+  <data name="saotomeandprincipe" xml:space="preserve">
+    <value>Sjedinjene Američke Države</value>
+  </data>
+  <data name="saudiarabia" xml:space="preserve">
+    <value>Saudijska Arabija</value>
+  </data>
+  <data name="senegal" xml:space="preserve">
+    <value>Senegal</value>
+  </data>
+  <data name="serbiaandmontenegro" xml:space="preserve">
+    <value>Srbija i Crna Gora</value>
+  </data>
+  <data name="seychelles" xml:space="preserve">
+    <value>Sejšeli</value>
+  </data>
+  <data name="sierraleone" xml:space="preserve">
+    <value>Sijera Leone</value>
+  </data>
+  <data name="singapore" xml:space="preserve">
+    <value>Singapur</value>
+  </data>
+  <data name="sintmaarten" xml:space="preserve">
+    <value>Sint Maarten</value>
+  </data>
+  <data name="solomonislands" xml:space="preserve">
+    <value>Solomonska Ostrva</value>
+  </data>
+  <data name="somalia" xml:space="preserve">
+    <value>Somalija</value>
+  </data>
+  <data name="southafrica" xml:space="preserve">
+    <value>Južnoafrička Republika</value>
+  </data>
+  <data name="southgeorgiaandthesouthsandwichislands" xml:space="preserve">
+    <value>Južni Sandwich i Južna Georgia</value>
+  </data>
+  <data name="southkorea" xml:space="preserve">
+    <value>Južna Koreja</value>
+  </data>
+  <data name="southsudan" xml:space="preserve">
+    <value>Južni Sudan</value>
+  </data>
+  <data name="srilanka" xml:space="preserve">
+    <value>Šri Lanka</value>
+  </data>
+  <data name="sudan" xml:space="preserve">
+    <value>Sudan</value>
+  </data>
+  <data name="suriname" xml:space="preserve">
+    <value>Surinam</value>
+  </data>
+  <data name="svalbardandjanmayen" xml:space="preserve">
+    <value>Svalbard i Jan Mayen</value>
+  </data>
+  <data name="swaziland" xml:space="preserve">
+    <value>Sveta Lucija</value>
+  </data>
+  <data name="syria" xml:space="preserve">
+    <value>Sirija</value>
+  </data>
+  <data name="taiwan" xml:space="preserve">
+    <value>Tajvan</value>
+  </data>
+  <data name="tajikistan" xml:space="preserve">
+    <value>Tadžikistan</value>
+  </data>
+  <data name="tanzania" xml:space="preserve">
+    <value>Tanzanija</value>
+  </data>
+  <data name="thailand" xml:space="preserve">
+    <value>Tajland</value>
+  </data>
+  <data name="togo" xml:space="preserve">
+    <value>Togo</value>
+  </data>
+  <data name="tokelau" xml:space="preserve">
+    <value>Tokelau</value>
+  </data>
+  <data name="tonga" xml:space="preserve">
+    <value>Tonga</value>
+  </data>
+  <data name="trinidadandtobago" xml:space="preserve">
+    <value>Trinidad i Tobago</value>
+  </data>
+  <data name="tunisia" xml:space="preserve">
+    <value>Tunis</value>
+  </data>
+  <data name="turkey" xml:space="preserve">
+    <value>Turska</value>
+  </data>
+  <data name="turkmenistan" xml:space="preserve">
+    <value>Turkmenistan</value>
+  </data>
+  <data name="turksandcaicosislands" xml:space="preserve">
+    <value>Turska i Kajkosi</value>
+  </data>
+  <data name="tuvalu" xml:space="preserve">
+    <value>Tuvalu</value>
+  </data>
+  <data name="usvirginislands" xml:space="preserve">
+    <value>Američka Devičanska Ostrva</value>
+  </data>
+  <data name="uganda" xml:space="preserve">
+    <value>Uganda</value>
+  </data>
+  <data name="unitedarabemirates" xml:space="preserve">
+    <value>Ujedinjeni Arapski Emirati</value>
+  </data>
+  <data name="unitedstatesminoroutlyingislands" xml:space="preserve">
+    <value>Sjedinjene Americke Države – Malena Otocja</value>
+  </data>
+  <data name="unitedstates" xml:space="preserve">
+    <value>Sjedinjene Americke Države</value>
+  </data>
+  <data name="uruguay" xml:space="preserve">
+    <value>Urugvaj</value>
+  </data>
+  <data name="uzbekistan" xml:space="preserve">
+    <value>Uzbekistan</value>
+  </data>
+  <data name="vanuatu" xml:space="preserve">
+    <value>Vanuatu</value>
+  </data>
+  <data name="venezuela" xml:space="preserve">
+    <value>Venecuela</value>
+  </data>
+  <data name="vietnam" xml:space="preserve">
+    <value>Vijetnam</value>
+  </data>
+  <data name="wallisandfutuna" xml:space="preserve">
+    <value>Wallis i Futuna</value>
+  </data>
+  <data name="westernsahara" xml:space="preserve">
+    <value>Zapadna Sahara</value>
+  </data>
+  <data name="yemen" xml:space="preserve">
+    <value>Jemen</value>
+  </data>
+  <data name="zambia" xml:space="preserve">
+    <value>Zambija</value>
+  </data>
+  <data name="zimbabwe" xml:space="preserve">
+    <value>Zimbabve</value>
+  </data>
+  <data name="openStatus" xml:space="preserve">
+    <value>Otvoreno</value>
+  </data>
+  <data name="assignedStatus" xml:space="preserve">
+    <value>Dodijeljeno</value>
+  </data>
+  <data name="closedStatus" xml:space="preserve">
+    <value>Zatvoreno</value>
+  </data>
+  <data name="smallStatus" xml:space="preserve">
+    <value>Malo</value>
+  </data>
+  <data name="mediumStatus" xml:space="preserve">
+    <value>Srednje</value>
+  </data>
+  <data name="criticalStatus" xml:space="preserve">
+    <value>Kritično</value>
+  </data>
+  <data name="warningsCategory" xml:space="preserve">
+    <value>Upozorenja</value>
+  </data>
+  <data name="sendCategory" xml:space="preserve">
+    <value>Slanje</value>
+  </data>
+  <data name="recyclingContentType" xml:space="preserve">
+    <value>Reciklaža</value>
+  </data>
+  <data name="paperContentType" xml:space="preserve">
+    <value>Papir</value>
+  </data>
+  <data name="mixWasteContentType" xml:space="preserve">
+    <value>Miješani otpad</value>
+  </data>
+  <data name="otherDamageType" xml:space="preserve">
+    <value>Ostalo</value>
+  </data>
+  <data name="damageDamageType" xml:space="preserve">
+    <value>Šteta</value>
+  </data>
+  <data name="graffitiDamageType" xml:space="preserve">
+    <value>Grafiti</value>
+  </data>
+  <data name="nonCompactingUnitType" xml:space="preserve">
+    <value>Nekompaktirajući</value>
+  </data>
+  <data name="compactingUnitType" xml:space="preserve">
+    <value>Kompaktirajući</value>
+  </data>
+  <data name="model120UnitModelType" xml:space="preserve">
+    <value>120 Model</value>
+  </data>
+  <data name="model240UnitModelType" xml:space="preserve">
+    <value>240 Model</value>
+  </data>
+  <data name="model360UnitModelType" xml:space="preserve">
+    <value>360 Model</value>
+  </data>
+  <data name="model600UnitModelType" xml:space="preserve">
+    <value>600 Model</value>
+  </data>
+  <data name="model170UnitModelType" xml:space="preserve">
+    <value>170 Model</value>
+  </data>
+  <data name="inactiveUser" xml:space="preserve">
+    <value>Neaktivan</value>
+  </data>
+  <data name="registeredUser" xml:space="preserve">
+    <value>Registriran</value>
+  </data>
+  <data name="activeUser" xml:space="preserve">
+    <value>Aktivan</value>
+  </data>
+  <data name="inactiveUnit" xml:space="preserve">
+    <value>Neaktivan</value>
+  </data>
+  <data name="registeredUnit" xml:space="preserve">
+    <value>Registriran</value>
+  </data>
+  <data name="activeUnit" xml:space="preserve">
+    <value>Aktivan</value>
+  </data>
+  <data name="getUnitErrorResponse" xml:space="preserve">
+    <value>Ne mogu dobiti jedinicu</value>
+  </data>
+  <data name="createUnitErrorResponse" xml:space="preserve">
+    <value>Ne mogu stvoriti jedinicu</value>
+  </data>
+  <data name="updateUnitErrorResponse" xml:space="preserve">
+    <value>Ne mogu ažurirati tu jedinicu</value>
+  </data>
+  <data name="statusUpdateUnitErrorResponse" xml:space="preserve">
+    <value>Jedinica nije pronadena</value>
+  </data>
+  <data name="deleteUnitErrorResponse" xml:space="preserve">
+    <value>Ne mogu izbrisati jedinicu. Ili je jedinica na ruti ili nemate dozvolu za brisanje.</value>
+  </data>
+  <data name="serialNumberCheckUnitErrorResponse" xml:space="preserve">
+    <value>Serijski broj ne postoji</value>
+  </data>
+  <data name="getUserUnitsErrorResponse" xml:space="preserve">
+    <value>Ne mogu pristupiti tim jedinicama</value>
+  </data>
+  <data name="unitReadingsAccessErrorResponse" xml:space="preserve">
+    <value>Ne mogu pristupiti</value>
+  </data>
+  <data name="installUnitErrorResponse" xml:space="preserve">
+    <value>Ne mogu instalirati ovaj spremnik</value>
+  </data>
+  <data name="lockUnitErrorResponse" xml:space="preserve">
+    <value>Neuspješno zakljucavanje jedinice</value>
+  </data>
+  <data name="createUserAlertErrorResponse" xml:space="preserve">
+    <value>Došlo je do pogreške pri stvaranju novih korisnickih obavijesti</value>
+  </data>
+  <data name="wrongExportFormatResponse" xml:space="preserve">
+    <value>Pogrešan format izvoza</value>
+  </data>
+  <data name="changePasswordErrorResponse" xml:space="preserve">
+    <value>Korisnik {0} ne može promijeniti lozinku</value>
+  </data>
+  <data name="changePasswordAuthErrorMessage" xml:space="preserve">
+    <value>Korisnik je izbrisan ili nema prava za promjenu lozinke</value>
+  </data>
+  <data name="damageNotFoundErrorMessage" xml:space="preserve">
+    <value>Oštecenje nije pronadeno</value>
+  </data>
+  <data name="canNotGetRouteErrorMessage" xml:space="preserve">
+    <value>Ne mogu dobiti tu rutu</value>
+  </data>
+  <data name="canNotUpdateRouteErrorMessage" xml:space="preserve">
+    <value>Ne mogu ažurirati rutu</value>
+  </data>
+  <data name="createRouteNoUnitErrorMessage" xml:space="preserve">
+    <value>Jedinica ne postoji</value>
+  </data>
+  <data name="canNotDeleteRouteErrorMessage" xml:space="preserve">
+    <value>Ne mogu izbrisati rutu</value>
+  </data>
+  <data name="canNotGetUserErrorMessage" xml:space="preserve">
+    <value>Ne mogu dobiti ovog korisnika</value>
+  </data>
+  <data name="errorOccurredErrorMessage" xml:space="preserve">
+    <value>Došlo je do pogreške</value>
+  </data>
+  <data name="createUserErrorMessage" xml:space="preserve">
+    <value>Došlo je do pogreške pri stvaranju novog korisnika</value>
+  </data>
+  <data name="updateUserErrorMessage" xml:space="preserve">
+    <value>Došlo je do pogreške pri ažuriranju korisnika {0}</value>
+  </data>
+  <data name="couldNotUpdateLanguageErrorMessage" xml:space="preserve">
+    <value>Nije moguce ažurirati jezik korisnika</value>
+  </data>
+  <data name="possibleParentsInvalidTypeErrorMessage" xml:space="preserve">
+    <value>Nevažeca vrijednost tipa</value>
+  </data>
+  <data name="serialNumberExistErrorResponse" xml:space="preserve">
+    <value>Serijski broj već postoji</value>
+  </data>
+  <data name="model165UnitModelType" xml:space="preserve">
+    <value>165 Model</value>
+  </data>
+  <data name="model1500UnitModelType" xml:space="preserve">
+    <value>1500 Model</value>
+  </data>
+  <data name="model3000UnitModelType" xml:space="preserve">
+    <value>3000 Model</value>
+  </data>
+  <data name="model5000UnitModelType" xml:space="preserve">
+    <value>5000 Model</value>
+  </data>
+  <data name="model150UnitModelType" xml:space="preserve">
+    <value>150 Model</value>
+  </data>
+  <data name="modelFilaSuperiorModelType" xml:space="preserve">
+    <value>Fila Superior</value>
+  </data>
+  <data name="modelFilaInferiorModelType" xml:space="preserve">
+    <value>Fila Inferior</value>
+  </data>
+  <data name="api" xml:space="preserve">
+    <value>Api</value>
+  </data>
+  <data name="listener" xml:space="preserve">
+    <value>Slušatelj</value>
+  </data>
+
+  <data name="dvd" xml:space="preserve">
+    <value>DVD</value>
+  </data>
+  <data name="booksAndMagazines" xml:space="preserve">
+    <value>Knjige i časopisi</value>
+  </data>
+  <data name="organicWaste" xml:space="preserve">
+    <value>Organski otpad</value>
+  </data>
+  <data name="liquids" xml:space="preserve">
+    <value>Tekućine</value>
+  </data>
+  <data name="householdItems" xml:space="preserve">
+    <value>Kućanski predmeti</value>
+  </data>
+  <data name="sprayOil" xml:space="preserve">
+    <value>Ulje u spreju</value>
+  </data>
+  <data name="smallAppliances" xml:space="preserve">
+    <value>Mali kućanski aparati</value>
+  </data>
+  <data name="textiles" xml:space="preserve">
+    <value>Tekstil</value>
+  </data>
+  <data name="plasticBottles" xml:space="preserve">
+    <value>Plastične boce</value>
+  </data>
+  <data name="glassBottles" xml:space="preserve">
+    <value>Staklene boce</value>
+  </data>
+  <data name="toner" xml:space="preserve">
+    <value>Toner</value>
+  </data>
+  <data name="crockery" xml:space="preserve">
+    <value>Posuđe</value>
+  </data>
+  <data name="battery" xml:space="preserve">
+    <value>Baterija</value>
+  </data>
+  <data name="aluminiumCans" xml:space="preserve">
+    <value>Aluminijske limenke</value>
+  </data>
+</root>

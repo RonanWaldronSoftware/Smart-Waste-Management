@@ -1,0 +1,26 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)' == 'Staging'">
+		<EnvironmentName>Staging</EnvironmentName>
+	</PropertyGroup>
+
+	<PropertyGroup Condition="'$(Configuration)' == 'Production'">
+		<EnvironmentName>Production</EnvironmentName>
+	</PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)' == 'Linux'">
+		<EnvironmentName>Linux</EnvironmentName>
+	</PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.4.0" />
+    <PackageReference Include="Yarp.ReverseProxy" Version="2.2.0-preview.1.24266.1" />
+  </ItemGroup>
+
+</Project>

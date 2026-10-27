@@ -1,0 +1,1206 @@
+<?xml version='1.0' encoding='utf-8'?>
+<root xmlns:ns1="urn:schemas-microsoft-com:xml-msdata" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  
+  <xs:schema id="root">
+    <xs:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xs:element name="root" ns1:IsDataSet="true">
+      <xs:complexType>
+        <xs:choice maxOccurs="unbounded">
+          <xs:element name="metadata">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="value" type="xsd:string" minOccurs="0" />
+              </xs:sequence>
+              <xs:attribute name="name" use="required" type="xsd:string" />
+              <xs:attribute name="type" type="xsd:string" />
+              <xs:attribute name="mimetype" type="xsd:string" />
+              <xs:attribute ref="xml:space" />
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="assembly">
+            <xs:complexType>
+              <xs:attribute name="alias" type="xsd:string" />
+              <xs:attribute name="name" type="xsd:string" />
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="data">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="value" type="xsd:string" minOccurs="0" ns1:Ordinal="1" />
+                <xs:element name="comment" type="xsd:string" minOccurs="0" ns1:Ordinal="2" />
+              </xs:sequence>
+              <xs:attribute name="name" type="xsd:string" use="required" ns1:Ordinal="1" />
+              <xs:attribute name="type" type="xsd:string" ns1:Ordinal="3" />
+              <xs:attribute name="mimetype" type="xsd:string" ns1:Ordinal="4" />
+              <xs:attribute ref="xml:space" />
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="resheader">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="value" type="xsd:string" minOccurs="0" ns1:Ordinal="1" />
+              </xs:sequence>
+              <xs:attribute name="name" type="xsd:string" use="required" />
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="admin" xml:space="preserve">
+    <value>Admin</value>
+  </data>
+  <data name="alertPushNotificationBody" xml:space="preserve">
+    <value>SN: {0} Ubicación: {1} Web: {2}</value>
+  </data>
+  <data name="alertSmsBody" xml:space="preserve">
+    <value>SmartWaste Alerta: {0} SN: {1} Ubicación: {2} Web: {3}</value>
+  </data>
+  <data name="batteryOverTemperatureAlertType" xml:space="preserve">
+    <value>Temperatura de batería elevada</value>
+  </data>
+  <data name="batteryUVLOAlertType" xml:space="preserve">
+    <value>UVLO de batería</value>
+  </data>
+  <data name="binFullAlertType" xml:space="preserve">
+    <value>Contenedor lleno</value>
+  </data>
+  <data name="binLockedAlertType" xml:space="preserve">
+    <value>Contenedor bloqueado</value>
+  </data>
+  <data name="binTiltedAlertType" xml:space="preserve">
+    <value>Contenedor inclinado</value>
+  </data>
+  <data name="cannotDeleteUserErrorMessage" xml:space="preserve">
+    <value>No se puede eliminar el usuario</value>
+  </data>
+  <data name="corporateCustomer" xml:space="preserve">
+    <value>Cliente corporativo</value>
+  </data>
+  <data name="croatian" xml:space="preserve">
+    <value>Croata</value>
+  </data>
+  <data name="customer" xml:space="preserve">
+    <value>Cliente</value>
+  </data>
+  <data name="damageReportAlertType" xml:space="preserve">
+    <value>Informe de daños</value>
+  </data>
+  <data name="deviceNotReportingAlertType" xml:space="preserve">
+    <value>Dispositivo no reporta</value>
+  </data>
+  <data name="distributor" xml:space="preserve">
+    <value>Distribuidor</value>
+  </data>
+  <data name="driver" xml:space="preserve">
+    <value>Conductor</value>
+  </data>
+  <data name="emailAlertType" xml:space="preserve">
+    <value>Correo electrónico</value>
+  </data>
+  <data name="emptiedLastPeriodAlertType" xml:space="preserve">
+    <value>Vaciado en el último período</value>
+  </data>
+  <data name="english" xml:space="preserve">
+    <value>Inglés</value>
+  </data>
+  <data name="fcmApiUrl" xml:space="preserve">
+    <value>Fcm api url</value>
+  </data>
+  <data name="fcmAuthKey" xml:space="preserve">
+    <value>Fcm auth key</value>
+  </data>
+  <data name="flapStuckOpenAlertType" xml:space="preserve">
+    <value>Tapa atascada abierta</value>
+  </data>
+  <data name="french" xml:space="preserve">
+    <value>Francés</value>
+  </data>
+  <data name="german" xml:space="preserve">
+    <value>Alemán</value>
+  </data>
+  <data name="italian" xml:space="preserve"><value>Italiano</value></data><data name="host" xml:space="preserve">
+    <value>Host</value>
+  </data>
+  <data name="mobileVersion" xml:space="preserve">
+    <value>Versión móvil</value>
+  </data>
+  <data name="norwegian" xml:space="preserve">
+    <value>Noruego</value>
+  </data>
+  <data name="parentUserNotFoundErrorMessage" xml:space="preserve">
+    <value>Usuario principal no encontrado</value>
+  </data>
+  <data name="port" xml:space="preserve">
+    <value>Puerto</value>
+  </data>
+  <data name="portuguese" xml:space="preserve">
+    <value>Portugués</value>
+  </data>
+  <data name="pushAlertType" xml:space="preserve">
+    <value>Push</value>
+  </data>
+  <data name="roleDoesNotExistErrorMessage" xml:space="preserve">
+    <value>El rol no existe</value>
+  </data>
+  <data name="romanian" xml:space="preserve">
+    <value>Rumano</value>
+  </data>
+  <data name="serviceDoorStuckOpenAlertType" xml:space="preserve">
+    <value>Puerta de servicio atascada abierta</value>
+  </data>
+  <data name="smsAlertType" xml:space="preserve">
+    <value>SMS</value>
+  </data>
+  <data name="smsDlrUrl" xml:space="preserve">
+    <value>Sms dlr url</value>
+  </data>
+  <data name="smsPassword" xml:space="preserve">
+    <value>Contraseña de Sms</value>
+  </data>
+  <data name="smsUrl" xml:space="preserve">
+    <value>Sms url</value>
+  </data>
+  <data name="smsUsername" xml:space="preserve">
+    <value>Nombre de usuario de Sms</value>
+  </data>
+  <data name="smtpPassword" xml:space="preserve">
+    <value>Contraseña de Smtp</value>
+  </data>
+  <data name="smtpUsername" xml:space="preserve">
+    <value>Nombre de usuario de Smtp</value>
+  </data>
+  <data name="spanish" xml:space="preserve">
+    <value>Español</value>
+  </data>
+  <data name="swedish" xml:space="preserve">
+    <value>Sueco</value>
+  </data>
+  <data name="technician" xml:space="preserve">
+    <value>Técnico</value>
+  </data>
+  <data name="userAlertEmailBody" xml:space="preserve">
+    <value>&lt;h1&gt;Alerta: {0}&lt;/h1&gt; &lt;h2&gt;Ubicación: {1}&lt;/h2&gt; &lt;h2&gt;SN: {2}&lt;/h2&gt; &lt;h3&gt;Ver detalles del contenedor: &lt;a href="{3}" target="_blank"&gt; {3} &lt;/a&gt; &lt;/h3&gt; &lt;h3&gt;Correo electrónico de contacto: &lt;a href="mailto:{4}"&gt;{4}&lt;/a&gt; &lt;/h3&gt;</value>
+  </data>
+  <data name="userAlertEmailTitle" xml:space="preserve">
+    <value>{0} Alerta</value>
+  </data>
+  <data name="userAlertTitle" xml:space="preserve">
+    <value>Alerta {0}</value>
+  </data>
+  <data name="userCanNotCreateAlertErrorMessage" xml:space="preserve">
+    <value>El usuario no puede crear alertas para el usuario elegido</value>
+  </data>
+  <data name="userNotAuthorizedToChangeStatusErrorMessage" xml:space="preserve">
+    <value>El usuario no está autorizado para cambiar el estado del usuario {0}</value>
+  </data>
+  <data name="userNotAuthorizedToCreateErrorMessage" xml:space="preserve">
+    <value>El usuario no está autorizado para crear un usuario con los datos proporcionados</value>
+  </data>
+  <data name="userNotAuthorizedToUpdateErrorMessage" xml:space="preserve">
+    <value>El usuario no está autorizado para actualizar el usuario {0}</value>
+  </data>
+  <data name="userNotFoundErrorMessage" xml:space="preserve">
+    <value>Usuario no encontrado</value>
+  </data>
+  <data name="userWithEmailExistsErrorMessage" xml:space="preserve">
+    <value>El usuario con ese correo electrónico ya existe</value>
+  </data>
+  <data name="andorra" xml:space="preserve">
+    <value>Andorra</value>
+  </data>
+  <data name="albania" xml:space="preserve">
+    <value>Albania</value>
+  </data>
+  <data name="austria" xml:space="preserve">
+    <value>Austria</value>
+  </data>
+  <data name="bosniaandherzegovina" xml:space="preserve">
+    <value>Bosnia y Herzegovina</value>
+  </data>
+  <data name="belgium" xml:space="preserve">
+    <value>Bélgica</value>
+  </data>
+  <data name="bulgaria" xml:space="preserve">
+    <value>Bulgaria</value>
+  </data>
+  <data name="belarus" xml:space="preserve">
+    <value>Bielorrusia</value>
+  </data>
+  <data name="switzerland" xml:space="preserve">
+    <value>Suiza</value>
+  </data>
+  <data name="cyprus" xml:space="preserve">
+    <value>Chipre</value>
+  </data>
+  <data name="czechrepublic" xml:space="preserve">
+    <value>República Checa</value>
+  </data>
+  <data name="germany" xml:space="preserve">
+    <value>Alemania</value>
+  </data>
+  <data name="denmark" xml:space="preserve">
+    <value>Dinamarca</value>
+  </data>
+  <data name="estonia" xml:space="preserve">
+    <value>Estonia</value>
+  </data>
+  <data name="spain" xml:space="preserve">
+    <value>España</value>
+  </data>
+  <data name="finland" xml:space="preserve">
+    <value>Finlandia</value>
+  </data>
+  <data name="faroeislands" xml:space="preserve">
+    <value>Islas Feroe</value>
+  </data>
+  <data name="france" xml:space="preserve">
+    <value>Francia</value>
+  </data>
+  <data name="unitedkingdom" xml:space="preserve">
+    <value>Reino Unido</value>
+  </data>
+  <data name="gibraltar" xml:space="preserve">
+    <value>Gibraltar</value>
+  </data>
+  <data name="greece" xml:space="preserve">
+    <value>Grecia</value>
+  </data>
+  <data name="croatia" xml:space="preserve">
+    <value>Croacia</value>
+  </data>
+  <data name="hungary" xml:space="preserve">
+    <value>Hungría</value>
+  </data>
+  <data name="ireland" xml:space="preserve">
+    <value>Irlanda</value>
+  </data>
+  <data name="isleofman" xml:space="preserve">
+    <value>Isla de Man</value>
+  </data>
+  <data name="iceland" xml:space="preserve">
+    <value>Islandia</value>
+  </data>
+  <data name="italy" xml:space="preserve">
+    <value>Italia</value>
+  </data>
+  <data name="liechtenstein" xml:space="preserve">
+    <value>Liechtenstein</value>
+  </data>
+  <data name="lithuania" xml:space="preserve">
+    <value>Lituania</value>
+  </data>
+  <data name="luxembourg" xml:space="preserve">
+    <value>Luxemburgo</value>
+  </data>
+  <data name="latvia" xml:space="preserve">
+    <value>Letonia</value>
+  </data>
+  <data name="monaco" xml:space="preserve">
+    <value>Mónaco</value>
+  </data>
+  <data name="moldova" xml:space="preserve">
+    <value>Moldavia</value>
+  </data>
+  <data name="montenegro" xml:space="preserve">
+    <value>Montenegro</value>
+  </data>
+  <data name="macedonia" xml:space="preserve">
+    <value>Macedonia</value>
+  </data>
+  <data name="malta" xml:space="preserve">
+    <value>Malta</value>
+  </data>
+  <data name="netherlands" xml:space="preserve">
+    <value>Países Bajos</value>
+  </data>
+  <data name="norway" xml:space="preserve">
+    <value>Noruega</value>
+  </data>
+  <data name="poland" xml:space="preserve">
+    <value>Polonia</value>
+  </data>
+  <data name="portugal" xml:space="preserve">
+    <value>Portugal</value>
+  </data>
+  <data name="romania" xml:space="preserve">
+    <value>Rumanía</value>
+  </data>
+  <data name="serbia" xml:space="preserve">
+    <value>Serbia</value>
+  </data>
+  <data name="russia" xml:space="preserve">
+    <value>Rusia</value>
+  </data>
+  <data name="sweden" xml:space="preserve">
+    <value>Suecia</value>
+  </data>
+  <data name="slovenia" xml:space="preserve">
+    <value>Eslovenia</value>
+  </data>
+  <data name="slovakia" xml:space="preserve">
+    <value>Eslovaquia</value>
+  </data>
+  <data name="sanmarino" xml:space="preserve">
+    <value>San Marino</value>
+  </data>
+  <data name="ukraine" xml:space="preserve">
+    <value>Ucrania</value>
+  </data>
+  <data name="vaticancity" xml:space="preserve">
+    <value>Ciudad del Vaticano</value>
+  </data>
+  <data name="kosovo" xml:space="preserve">
+    <value>Kosovo</value>
+  </data>
+  <data name="canada" xml:space="preserve">
+    <value>Canadá</value>
+  </data>
+  <data name="afghanistan" xml:space="preserve">
+    <value>Afganistán</value>
+  </data>
+  <data name="alandislands" xml:space="preserve">
+    <value>Islas Åland</value>
+  </data>
+  <data name="algeria" xml:space="preserve">
+    <value>Argelia</value>
+  </data>
+  <data name="americansamoa" xml:space="preserve">
+    <value>Samoa Americana</value>
+  </data>
+  <data name="angola" xml:space="preserve">
+    <value>Angola</value>
+  </data>
+  <data name="anguilla" xml:space="preserve">
+    <value>Anguila</value>
+  </data>
+  <data name="antarctica" xml:space="preserve">
+    <value>Antártida</value>
+  </data>
+  <data name="antiguaandbarbuda" xml:space="preserve">
+    <value>Antigua y Barbuda</value>
+  </data>
+  <data name="argentina" xml:space="preserve">
+    <value>Argentina</value>
+  </data>
+  <data name="armenia" xml:space="preserve">
+    <value>Armenia</value>
+  </data>
+  <data name="aruba" xml:space="preserve">
+    <value>Aruba</value>
+  </data>
+  <data name="australia" xml:space="preserve">
+    <value>Australia</value>
+  </data>
+  <data name="azerbaijan" xml:space="preserve">
+    <value>Azerbaiyán</value>
+  </data>
+  <data name="bahamas" xml:space="preserve">
+    <value>Bahamas</value>
+  </data>
+  <data name="bahrain" xml:space="preserve">
+    <value>Baréin</value>
+  </data>
+  <data name="bangladesh" xml:space="preserve">
+    <value>Bangladés</value>
+  </data>
+  <data name="barbados" xml:space="preserve">
+    <value>Barbados</value>
+  </data>
+  <data name="belize" xml:space="preserve">
+    <value>Belice</value>
+  </data>
+  <data name="benin" xml:space="preserve">
+    <value>Benín</value>
+  </data>
+  <data name="bermuda" xml:space="preserve">
+    <value>Bermudas</value>
+  </data>
+  <data name="bhutan" xml:space="preserve">
+    <value>Bután</value>
+  </data>
+  <data name="bolivia" xml:space="preserve">
+    <value>Bolivia</value>
+  </data>
+  <data name="bonaire,sainteustatiusandsaba" xml:space="preserve">
+    <value>Bonaire, San Eustaquio y Saba</value>
+  </data>
+  <data name="botswana" xml:space="preserve">
+    <value>Botswana</value>
+  </data>
+  <data name="bouvetisland" xml:space="preserve">
+    <value>Isla Bouvet</value>
+  </data>
+  <data name="brazil" xml:space="preserve">
+    <value>Brasil</value>
+  </data>
+  <data name="britishindianoceanterritory" xml:space="preserve">
+    <value>Territorio Británico del Océano Índico</value>
+  </data>
+  <data name="britishvirginislands" xml:space="preserve">
+    <value>Islas Vírgenes Británicas</value>
+  </data>
+  <data name="brunei" xml:space="preserve">
+    <value>Brunéi</value>
+  </data>
+  <data name="burkinafaso" xml:space="preserve">
+    <value>Burkina Faso</value>
+  </data>
+  <data name="burundi" xml:space="preserve">
+    <value>Burundi</value>
+  </data>
+  <data name="cambodia" xml:space="preserve">
+    <value>Camboya</value>
+  </data>
+  <data name="cameroon" xml:space="preserve">
+    <value>Camerún</value>
+  </data>
+  <data name="capeverde" xml:space="preserve">
+    <value>Cabo Verde</value>
+  </data>
+  <data name="caymanislands" xml:space="preserve">
+    <value>Islas Caimán</value>
+  </data>
+  <data name="centralafricanrepublic" xml:space="preserve">
+    <value>República Centroafricana</value>
+  </data>
+  <data name="chad" xml:space="preserve">
+    <value>Chad</value>
+  </data>
+  <data name="chile" xml:space="preserve">
+    <value>Chile</value>
+  </data>
+  <data name="china" xml:space="preserve">
+    <value>China</value>
+  </data>
+  <data name="christmasisland" xml:space="preserve">
+    <value>Isla de Navidad</value>
+  </data>
+  <data name="cocosislands" xml:space="preserve">
+    <value>Islas Cocos</value>
+  </data>
+  <data name="colombia" xml:space="preserve">
+    <value>Colombia</value>
+  </data>
+  <data name="comoros" xml:space="preserve">
+    <value>Comoras</value>
+  </data>
+  <data name="cookislands" xml:space="preserve">
+    <value>Islas Cook</value>
+  </data>
+  <data name="costarica" xml:space="preserve">
+    <value>Costa Rica</value>
+  </data>
+  <data name="cuba" xml:space="preserve">
+    <value>Cuba</value>
+  </data>
+  <data name="curacao" xml:space="preserve">
+    <value>Curazao</value>
+  </data>
+  <data name="democraticrepublicofthecongo" xml:space="preserve">
+    <value>República Democrática del Congo</value>
+  </data>
+  <data name="djibouti" xml:space="preserve">
+    <value>Yibuti</value>
+  </data>
+  <data name="dominica" xml:space="preserve">
+    <value>Dominica</value>
+  </data>
+  <data name="dominicanrepublic" xml:space="preserve">
+    <value>República Dominicana</value>
+  </data>
+  <data name="easttimor" xml:space="preserve">
+    <value>Timor Oriental</value>
+  </data>
+  <data name="ecuador" xml:space="preserve">
+    <value>Ecuador</value>
+  </data>
+  <data name="egypt" xml:space="preserve">
+    <value>Egipto</value>
+  </data>
+  <data name="elsalvador" xml:space="preserve">
+    <value>El Salvador</value>
+  </data>
+  <data name="equatorialguinea" xml:space="preserve">
+    <value>Guinea Ecuatorial</value>
+  </data>
+  <data name="eritrea" xml:space="preserve">
+    <value>Eritrea</value>
+  </data>
+  <data name="ethiopia" xml:space="preserve">
+    <value>Etiopía</value>
+  </data>
+  <data name="falklandislands" xml:space="preserve">
+    <value>Islas Malvinas</value>
+  </data>
+  <data name="fiji" xml:space="preserve">
+    <value>Fiyi</value>
+  </data>
+  <data name="frenchguiana" xml:space="preserve">
+    <value>Guayana Francesa</value>
+  </data>
+  <data name="frenchpolynesia" xml:space="preserve">
+    <value>Polinesia Francesa</value>
+  </data>
+  <data name="frenchsouthernterritories" xml:space="preserve">
+    <value>Territorios Australes Franceses</value>
+  </data>
+  <data name="gabon" xml:space="preserve">
+    <value>Gabón</value>
+  </data>
+  <data name="gambia" xml:space="preserve">
+    <value>Gambia</value>
+  </data>
+  <data name="georgia" xml:space="preserve">
+    <value>Georgia</value>
+  </data>
+  <data name="ghana" xml:space="preserve">
+    <value>Ghana</value>
+  </data>
+  <data name="greenland" xml:space="preserve">
+    <value>Groenlandia</value>
+  </data>
+  <data name="grenada" xml:space="preserve">
+    <value>Granada</value>
+  </data>
+  <data name="guadeloupe" xml:space="preserve">
+    <value>Guadalupe</value>
+  </data>
+  <data name="guam" xml:space="preserve">
+    <value>Guam</value>
+  </data>
+  <data name="guatemala" xml:space="preserve">
+    <value>Guatemala</value>
+  </data>
+  <data name="guernsey" xml:space="preserve">
+    <value>Guernesey</value>
+  </data>
+  <data name="guinea" xml:space="preserve">
+    <value>Guinea</value>
+  </data>
+  <data name="guinea-bissau" xml:space="preserve">
+    <value>Guinea-Bisau</value>
+  </data>
+  <data name="guyana" xml:space="preserve">
+    <value>Guyana</value>
+  </data>
+  <data name="haiti" xml:space="preserve">
+    <value>Haití</value>
+  </data>
+  <data name="heardislandandmcdonaldislands" xml:space="preserve">
+    <value>Islas Heard y McDonald</value>
+  </data>
+  <data name="honduras" xml:space="preserve">
+    <value>Honduras</value>
+  </data>
+  <data name="hongkong" xml:space="preserve">
+    <value>Hong Kong</value>
+  </data>
+  <data name="india" xml:space="preserve">
+    <value>India</value>
+  </data>
+  <data name="indonesia" xml:space="preserve">
+    <value>Indonesia</value>
+  </data>
+  <data name="iran" xml:space="preserve">
+    <value>Irán</value>
+  </data>
+  <data name="iraq" xml:space="preserve">
+    <value>Irak</value>
+  </data>
+  <data name="israel" xml:space="preserve">
+    <value>Israel</value>
+  </data>
+  <data name="ivorycoast" xml:space="preserve">
+    <value>Costa de Marfil</value>
+  </data>
+  <data name="jamaica" xml:space="preserve">
+    <value>Jamaica</value>
+  </data>
+  <data name="japan" xml:space="preserve">
+    <value>Japón</value>
+  </data>
+  <data name="jersey" xml:space="preserve">
+    <value>Jersey</value>
+  </data>
+  <data name="jordan" xml:space="preserve">
+    <value>Jordania</value>
+  </data>
+  <data name="kazakhstan" xml:space="preserve">
+    <value>Kazajistán</value>
+  </data>
+  <data name="kenya" xml:space="preserve">
+    <value>Kenia</value>
+  </data>
+  <data name="kiribati" xml:space="preserve">
+    <value>Kiribati</value>
+  </data>
+  <data name="kuwait" xml:space="preserve">
+    <value>Kuwait</value>
+  </data>
+  <data name="kyrgyzstan" xml:space="preserve">
+    <value>Kirguistán</value>
+  </data>
+  <data name="laos" xml:space="preserve">
+    <value>Laos</value>
+  </data>
+  <data name="lebanon" xml:space="preserve">
+    <value>Líbano</value>
+  </data>
+  <data name="lesotho" xml:space="preserve">
+    <value>Lesoto</value>
+  </data>
+  <data name="liberia" xml:space="preserve">
+    <value>Liberia</value>
+  </data>
+  <data name="libya" xml:space="preserve">
+    <value>Libia</value>
+  </data>
+  <data name="macao" xml:space="preserve">
+    <value>Macao</value>
+  </data>
+  <data name="madagascar" xml:space="preserve">
+    <value>Madagascar</value>
+  </data>
+  <data name="malawi" xml:space="preserve">
+    <value>Malawi</value>
+  </data>
+  <data name="malaysia" xml:space="preserve">
+    <value>Malasia</value>
+  </data>
+  <data name="maldives" xml:space="preserve">
+    <value>Maldivas</value>
+  </data>
+  <data name="mali" xml:space="preserve">
+    <value>Malí</value>
+  </data>
+  <data name="marshallislands" xml:space="preserve">
+    <value>Islas Marshall</value>
+  </data>
+  <data name="martinique" xml:space="preserve">
+    <value>Martinica</value>
+  </data>
+  <data name="mauritania" xml:space="preserve">
+    <value>Mauritania</value>
+  </data>
+  <data name="mauritius" xml:space="preserve">
+    <value>Mauricio</value>
+  </data>
+  <data name="mayotte" xml:space="preserve">
+    <value>Mayotte</value>
+  </data>
+  <data name="mexico" xml:space="preserve">
+    <value>México</value>
+  </data>
+  <data name="micronesia" xml:space="preserve">
+    <value>Micronesia</value>
+  </data>
+  <data name="mongolia" xml:space="preserve">
+    <value>Mongolia</value>
+  </data>
+  <data name="montserrat" xml:space="preserve">
+    <value>Montserrat</value>
+  </data>
+  <data name="morocco" xml:space="preserve">
+    <value>Marruecos</value>
+  </data>
+  <data name="mozambique" xml:space="preserve">
+    <value>Mozambique</value>
+  </data>
+  <data name="myanmar" xml:space="preserve">
+    <value>Birmania</value>
+  </data>
+  <data name="namibia" xml:space="preserve">
+    <value>Namibia</value>
+  </data>
+  <data name="nauru" xml:space="preserve">
+    <value>Nauru</value>
+  </data>
+  <data name="nepal" xml:space="preserve">
+    <value>Nepal</value>
+  </data>
+  <data name="netherlandsantilles" xml:space="preserve">
+    <value>Antillas Neerlandesas</value>
+  </data>
+  <data name="newcaledonia" xml:space="preserve">
+    <value>Nueva Caledonia</value>
+  </data>
+  <data name="newzealand" xml:space="preserve">
+    <value>Nueva Zelanda</value>
+  </data>
+  <data name="nicaragua" xml:space="preserve">
+    <value>Nicaragua</value>
+  </data>
+  <data name="niger" xml:space="preserve">
+    <value>Níger</value>
+  </data>
+  <data name="nigeria" xml:space="preserve">
+    <value>Nigeria</value>
+  </data>
+  <data name="niue" xml:space="preserve">
+    <value>Niue</value>
+  </data>
+  <data name="norfolkisland" xml:space="preserve">
+    <value>Isla Norfolk</value>
+  </data>
+  <data name="northkorea" xml:space="preserve">
+    <value>Corea del Norte</value>
+  </data>
+  <data name="northernmarianaislands" xml:space="preserve">
+    <value>Islas Marianas del Norte</value>
+  </data>
+  <data name="oman" xml:space="preserve">
+    <value>Omán</value>
+  </data>
+  <data name="pakistan" xml:space="preserve">
+    <value>Pakistán</value>
+  </data>
+  <data name="palau" xml:space="preserve">
+    <value>Palau</value>
+  </data>
+  <data name="palestinianterritory" xml:space="preserve">
+    <value>Territorio Palestino</value>
+  </data>
+  <data name="panama" xml:space="preserve">
+    <value>Panamá</value>
+  </data>
+  <data name="papuanewguinea" xml:space="preserve">
+    <value>Papúa Nueva Guinea</value>
+  </data>
+  <data name="paraguay" xml:space="preserve">
+    <value>Paraguay</value>
+  </data>
+  <data name="peru" xml:space="preserve">
+    <value>Perú</value>
+  </data>
+  <data name="philippines" xml:space="preserve">
+    <value>Filipinas</value>
+  </data>
+  <data name="pitcairn" xml:space="preserve">
+    <value>Pitcairn</value>
+  </data>
+  <data name="puertorico" xml:space="preserve">
+    <value>Puerto Rico</value>
+  </data>
+  <data name="qatar" xml:space="preserve">
+    <value>Catar</value>
+  </data>
+  <data name="republicofthecongo" xml:space="preserve">
+    <value>República del Congo</value>
+  </data>
+  <data name="reunion" xml:space="preserve">
+    <value>Reunión</value>
+  </data>
+  <data name="rwanda" xml:space="preserve">
+    <value>Ruanda</value>
+  </data>
+  <data name="saintbarthelemy" xml:space="preserve">
+    <value>San Bartolomé</value>
+  </data>
+  <data name="sainthelena" xml:space="preserve">
+    <value>Santa Helena</value>
+  </data>
+  <data name="saintkittsandnevis" xml:space="preserve">
+    <value>San Cristóbal y Nieves</value>
+  </data>
+  <data name="saintlucia" xml:space="preserve">
+    <value>Santa Lucía</value>
+  </data>
+  <data name="saintmartin" xml:space="preserve">
+    <value>San Martín</value>
+  </data>
+  <data name="saintpierreandmiquelon" xml:space="preserve">
+    <value>San Pedro y Miquelón</value>
+  </data>
+  <data name="saintvincentandthegrenadines" xml:space="preserve">
+    <value>San Vicente y las Granadinas</value>
+  </data>
+  <data name="samoa" xml:space="preserve">
+    <value>Samoa</value>
+  </data>
+  <data name="saotomeandprincipe" xml:space="preserve">
+    <value>Santo Tomé y Príncipe</value>
+  </data>
+  <data name="saudiarabia" xml:space="preserve">
+    <value>Arabia Saudita</value>
+  </data>
+  <data name="senegal" xml:space="preserve">
+    <value>Senegal</value>
+  </data>
+  <data name="serbiaandmontenegro" xml:space="preserve">
+    <value>Serbia y Montenegro</value>
+  </data>
+  <data name="seychelles" xml:space="preserve">
+    <value>Seychelles</value>
+  </data>
+  <data name="sierraleone" xml:space="preserve">
+    <value>Sierra Leona</value>
+  </data>
+  <data name="singapore" xml:space="preserve">
+    <value>Singapur</value>
+  </data>
+  <data name="sintmaarten" xml:space="preserve">
+    <value>Saba</value>
+  </data>
+  <data name="solomonislands" xml:space="preserve">
+    <value>Islas Salomón</value>
+  </data>
+  <data name="somalia" xml:space="preserve">
+    <value>Somalia</value>
+  </data>
+  <data name="southafrica" xml:space="preserve">
+    <value>Sudáfrica</value>
+  </data>
+  <data name="southgeorgiaandthesouthsandwichislands" xml:space="preserve">
+    <value>Georgia del Sur y las Islas Sandwich del Sur</value>
+  </data>
+  <data name="southkorea" xml:space="preserve">
+    <value>Corea del Sur</value>
+  </data>
+  <data name="southsudan" xml:space="preserve">
+    <value>Sudán del Sur</value>
+  </data>
+  <data name="srilanka" xml:space="preserve">
+    <value>Sri Lanka</value>
+  </data>
+  <data name="sudan" xml:space="preserve">
+    <value>Sudán</value>
+  </data>
+  <data name="suriname" xml:space="preserve">
+    <value>Surinam</value>
+  </data>
+  <data name="svalbardandjanmayen" xml:space="preserve">
+    <value>Svalbard y Jan Mayen</value>
+  </data>
+  <data name="swaziland" xml:space="preserve">
+    <value>Esuatini</value>
+  </data>
+  <data name="syria" xml:space="preserve">
+    <value>Siria</value>
+  </data>
+  <data name="taiwan" xml:space="preserve">
+    <value>Taiwán</value>
+  </data>
+  <data name="tajikistan" xml:space="preserve">
+    <value>Tayikistán</value>
+  </data>
+  <data name="tanzania" xml:space="preserve">
+    <value>Tanzania</value>
+  </data>
+  <data name="thailand" xml:space="preserve">
+    <value>Tailandia</value>
+  </data>
+  <data name="togo" xml:space="preserve">
+    <value>Togo</value>
+  </data>
+  <data name="tokelau" xml:space="preserve">
+    <value>Tokelau</value>
+  </data>
+  <data name="tonga" xml:space="preserve">
+    <value>Tonga</value>
+  </data>
+  <data name="trinidadandtobago" xml:space="preserve">
+    <value>Trinidad y Tobago</value>
+  </data>
+  <data name="tunisia" xml:space="preserve">
+    <value>Túnez</value>
+  </data>
+  <data name="turkey" xml:space="preserve">
+    <value>Turquía</value>
+  </data>
+  <data name="turkmenistan" xml:space="preserve">
+    <value>Turkmenistán</value>
+  </data>
+  <data name="turksandcaicosislands" xml:space="preserve">
+    <value>Islas Turcas y Caicos</value>
+  </data>
+  <data name="tuvalu" xml:space="preserve">
+    <value>Tuvalu</value>
+  </data>
+  <data name="usvirginislands" xml:space="preserve">
+    <value>Islas Vírgenes de los Estados Unidos</value>
+  </data>
+  <data name="uganda" xml:space="preserve">
+    <value>Uganda</value>
+  </data>
+  <data name="unitedarabemirates" xml:space="preserve">
+    <value>Emiratos Árabes Unidos</value>
+  </data>
+  <data name="unitedstatesminoroutlyingislands" xml:space="preserve">
+    <value>Islas Ultramarinas Menores de los Estados Unidos</value>
+  </data>
+  <data name="unitedstates" xml:space="preserve">
+    <value>Estados Unidos</value>
+  </data>
+  <data name="uruguay" xml:space="preserve">
+    <value>Uruguay</value>
+  </data>
+  <data name="uzbekistan" xml:space="preserve">
+    <value>Uzbekistán</value>
+  </data>
+  <data name="vanuatu" xml:space="preserve">
+    <value>Vanuatu</value>
+  </data>
+  <data name="venezuela" xml:space="preserve">
+    <value>Venezuela</value>
+  </data>
+  <data name="vietnam" xml:space="preserve">
+    <value>Vietnam</value>
+  </data>
+  <data name="wallisandfutuna" xml:space="preserve">
+    <value>Wallis y Futuna</value>
+  </data>
+  <data name="westernsahara" xml:space="preserve">
+    <value>Sáhara Occidental</value>
+  </data>
+  <data name="yemen" xml:space="preserve">
+    <value>Yemen</value>
+  </data>
+  <data name="zambia" xml:space="preserve">
+    <value>Zambia</value>
+  </data>
+  <data name="zimbabwe" xml:space="preserve">
+    <value>Zimbabue</value>
+  </data>
+  <data name="openStatus" xml:space="preserve">
+    <value>Abierto</value>
+  </data>
+  <data name="assignedStatus" xml:space="preserve">
+    <value>Asignado</value>
+  </data>
+  <data name="closedStatus" xml:space="preserve">
+    <value>Cerrado</value>
+  </data>
+  <data name="smallStatus" xml:space="preserve">
+    <value>Pequeño</value>
+  </data>
+  <data name="mediumStatus" xml:space="preserve">
+    <value>Medio</value>
+  </data>
+  <data name="criticalStatus" xml:space="preserve">
+    <value>Crítico</value>
+  </data>
+  <data name="warningsCategory" xml:space="preserve">
+    <value>Advertencias</value>
+  </data>
+  <data name="sendCategory" xml:space="preserve">
+    <value>Enviar</value>
+  </data>
+  <data name="recyclingContentType" xml:space="preserve">
+    <value>Reciclaje</value>
+  </data>
+  <data name="paperContentType" xml:space="preserve">
+    <value>Papel</value>
+  </data>
+  <data name="mixWasteContentType" xml:space="preserve">
+    <value>Residuos mezclados</value>
+  </data>
+  <data name="otherDamageType" xml:space="preserve">
+    <value>Otro</value>
+  </data>
+  <data name="damageDamageType" xml:space="preserve">
+    <value>Daño</value>
+  </data>
+  <data name="graffitiDamageType" xml:space="preserve">
+    <value>Grafiti</value>
+  </data>
+  <data name="nonCompactingUnitType" xml:space="preserve">
+    <value>No compactador</value>
+  </data>
+  <data name="compactingUnitType" xml:space="preserve">
+    <value>Compactador</value>
+  </data>
+  <data name="model120UnitModelType" xml:space="preserve">
+    <value>120 Modelo</value>
+  </data>
+  <data name="model240UnitModelType" xml:space="preserve">
+    <value>240 Modelo</value>
+  </data>
+  <data name="model360UnitModelType" xml:space="preserve">
+    <value>360 Modelo</value>
+  </data>
+  <data name="model600UnitModelType" xml:space="preserve">
+    <value>600 Modelo</value>
+  </data>
+  <data name="model170UnitModelType" xml:space="preserve">
+    <value>170 Modelo</value>
+  </data>
+  <data name="inactiveUser" xml:space="preserve">
+    <value>Inactivo</value>
+  </data>
+  <data name="registeredUser" xml:space="preserve">
+    <value>Registrado</value>
+  </data>
+  <data name="activeUser" xml:space="preserve">
+    <value>Activo</value>
+  </data>
+  <data name="inactiveUnit" xml:space="preserve">
+    <value>Inactivo</value>
+  </data>
+  <data name="registeredUnit" xml:space="preserve">
+    <value>Registrado</value>
+  </data>
+  <data name="activeUnit" xml:space="preserve">
+    <value>Activo</value>
+  </data>
+  <data name="getUnitErrorResponse" xml:space="preserve">
+    <value>No se puede obtener la unidad</value>
+  </data>
+  <data name="createUnitErrorResponse" xml:space="preserve">
+    <value>No se puede crear la unidad</value>
+  </data>
+  <data name="updateUnitErrorResponse" xml:space="preserve">
+    <value>No se puede actualizar esa unidad</value>
+  </data>
+  <data name="statusUpdateUnitErrorResponse" xml:space="preserve">
+    <value>Unidad no encontrada</value>
+  </data>
+  <data name="deleteUnitErrorResponse" xml:space="preserve">
+    <value>No se puede eliminar la unidad. O bien la unidad está en una ruta o no tienes permiso para eliminarla.</value>
+  </data>
+  <data name="serialNumberCheckUnitErrorResponse" xml:space="preserve">
+    <value>El número de serie no existe</value>
+  </data>
+  <data name="getUserUnitsErrorResponse" xml:space="preserve">
+    <value>No se puede acceder a estas unidades</value>
+  </data>
+  <data name="unitReadingsAccessErrorResponse" xml:space="preserve">
+    <value>No se puede acceder</value>
+  </data>
+  <data name="installUnitErrorResponse" xml:space="preserve">
+    <value>No se puede instalar este contenedor</value>
+  </data>
+  <data name="lockUnitErrorResponse" xml:space="preserve">
+    <value>Error al bloquear la unidad</value>
+  </data>
+  <data name="createUserAlertErrorResponse" xml:space="preserve">
+    <value>Se produjo un error al crear nuevas alertas de usuario</value>
+  </data>
+  <data name="wrongExportFormatResponse" xml:space="preserve">
+    <value>Formato de exportación incorrecto</value>
+  </data>
+  <data name="changePasswordErrorResponse" xml:space="preserve">
+    <value>El usuario {0} no puede cambiar la contraseña</value>
+  </data>
+  <data name="changePasswordAuthErrorMessage" xml:space="preserve">
+    <value>El usuario está eliminado o no tiene derechos para cambiar la contraseña</value>
+  </data>
+  <data name="damageNotFoundErrorMessage" xml:space="preserve">
+    <value>Daño no encontrado</value>
+  </data>
+  <data name="canNotGetRouteErrorMessage" xml:space="preserve">
+    <value>No se puede obtener esa ruta</value>
+  </data>
+  <data name="canNotUpdateRouteErrorMessage" xml:space="preserve">
+    <value>No se puede actualizar la ruta</value>
+  </data>
+  <data name="createRouteNoUnitErrorMessage" xml:space="preserve">
+    <value>La unidad no existe</value>
+  </data>
+  <data name="canNotDeleteRouteErrorMessage" xml:space="preserve">
+    <value>No se puede eliminar la ruta</value>
+  </data>
+  <data name="canNotGetUserErrorMessage" xml:space="preserve">
+    <value>No se puede obtener este usuario</value>
+  </data>
+  <data name="errorOccurredErrorMessage" xml:space="preserve">
+    <value>Se produjo un error</value>
+  </data>
+  <data name="createUserErrorMessage" xml:space="preserve">
+    <value>Se produjo un error al crear un nuevo usuario</value>
+  </data>
+  <data name="updateUserErrorMessage" xml:space="preserve">
+    <value>Se produjo un error al actualizar al usuario {0}</value>
+  </data>
+  <data name="couldNotUpdateLanguageErrorMessage" xml:space="preserve">
+    <value>No se pudo actualizar el idioma del usuario</value>
+  </data>
+  <data name="possibleParentsInvalidTypeErrorMessage" xml:space="preserve">
+    <value>Valor de tipo no válido</value>
+  </data>
+  <data name="serialNumberExistErrorResponse" xml:space="preserve">
+    <value>El número de serie ya existe</value>
+  </data>
+  <data name="model165UnitModelType" xml:space="preserve">
+    <value>165 Model</value>
+  </data>
+  <data name="model1500UnitModelType" xml:space="preserve">
+    <value>1500 Model</value>
+  </data>
+  <data name="model3000UnitModelType" xml:space="preserve">
+    <value>3000 Model</value>
+  </data>
+  <data name="model5000UnitModelType" xml:space="preserve">
+    <value>5000 Model</value>
+  </data>
+  <data name="model150UnitModelType" xml:space="preserve">
+    <value>150 Model</value>
+  </data>
+  <data name="modelFilaSuperiorModelType" xml:space="preserve">
+    <value>Fila Superior</value>
+  </data>
+  <data name="modelFilaInferiorModelType" xml:space="preserve">
+    <value>Fila Inferior</value>
+  </data>
+  <data name="api" xml:space="preserve">
+    <value>Api</value>
+  </data>
+  <data name="listener" xml:space="preserve">
+    <value>Listener</value>
+  </data>
+
+  <data name="dvd" xml:space="preserve">
+    <value>DVD</value>
+  </data>
+  <data name="booksAndMagazines" xml:space="preserve">
+    <value>Libros y revistas</value>
+  </data>
+  <data name="organicWaste" xml:space="preserve">
+    <value>Residuos orgánicos</value>
+  </data>
+  <data name="liquids" xml:space="preserve">
+    <value>Líquidos</value>
+  </data>
+  <data name="householdItems" xml:space="preserve">
+    <value>Artículos del hogar</value>
+  </data>
+  <data name="sprayOil" xml:space="preserve">
+    <value>Aceite en spray</value>
+  </data>
+  <data name="smallAppliances" xml:space="preserve">
+    <value>Pequeños electrodomésticos</value>
+  </data>
+  <data name="textiles" xml:space="preserve">
+    <value>Textiles</value>
+  </data>
+  <data name="plasticBottles" xml:space="preserve">
+    <value>Botellas de plástico</value>
+  </data>
+  <data name="glassBottles" xml:space="preserve">
+    <value>Botellas de vidrio</value>
+  </data>
+  <data name="toner" xml:space="preserve">
+    <value>Tóner</value>
+  </data>
+  <data name="crockery" xml:space="preserve">
+    <value>Vajilla</value>
+  </data>
+  <data name="battery" xml:space="preserve">
+    <value>Batería</value>
+  </data>
+  <data name="aluminiumCans" xml:space="preserve">
+    <value>Latas de aluminio</value>
+  </data>
+</root>

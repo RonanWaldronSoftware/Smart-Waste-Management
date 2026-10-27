@@ -1,0 +1,32 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+	<PropertyGroup Condition="'$(Configuration)' == 'Staging'">
+		<EnvironmentName>Staging</EnvironmentName>
+	</PropertyGroup>
+
+	<PropertyGroup Condition="'$(Configuration)' == 'Production'">
+		<EnvironmentName>Production</EnvironmentName>
+	</PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)' == 'Linux'">
+		<EnvironmentName>Linux</EnvironmentName>
+	</PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Gelf.Extensions.Logging" Version="2.6.0" />
+    <PackageReference Include="RabbitMQ.Client" Version="6.8.1" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.4.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\SmartWaste.Model\SmartWaste.Model.csproj" />
+    <ProjectReference Include="..\SmartWaste.Service\SmartWaste.Service.csproj" />
+  </ItemGroup>
+
+</Project>
